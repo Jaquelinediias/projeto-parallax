@@ -1,0 +1,152 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+
+*{
+    margin:0px;
+    padding: 0;
+}
+html, body{
+    min-height: 100vh;
+    background-color: #ccc;
+}
+/*--- Cabeçalho--*/
+header{
+    height: 55vh;
+    background-image: url(images01/salad-seedling-4134906_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+   
+    background-color:#d12519;
+    border-bottom: 2px solid #8C593B;
+    color:#ffff;
+    text-align: center;
+}
+
+header > h1{
+   padding-top: 50px;
+   padding-bottom: 50px;
+  
+   font-size: 60px;
+   font-family: 'Contrail One', cursive;
+}
+h1::first-letter{
+    font-size: 120px;
+}
+header > p{
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+   
+    
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.image > p {
+    width:400px;
+    display: inline-block;
+    padding: 5px;
+    background-color:rgba(16, 15, 15, 0.1);
+    text-shadow: 1px 1px 0px #000000;
+    font-size: 18px;
+}
+
+section.text{
+    background-color:#BFA006;
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+}
+section.image{
+    background-color:#cb7e32 ;
+    color: #fff;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+
+}
+section#img01{
+    
+   background-image: url(images01/sopadebroquelis_1280.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: repeat-y;
+
+}
+section#img02{
+   background-image: url(images01/sopadeaboboragrande1280.jpg);
+   object-fit: contain;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: repeat-y;
+}
+
+section#img03{
+    background-image: url(images01/soup-1429793_1280.jpg);
+    object-fit: contain;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat-y;
+ }
+ section#img04{
+    background-image: url(images01/potato-soup-2152254_1280.jpg);
+    object-fit: contain;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat-y;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --Rodapé--*/
+footer{
+    background-color:#fd0505 ;
+    color: #ffffff;
+   text-align: center;
+    padding: 12px;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #BFA006;
+}
